@@ -3,7 +3,7 @@ module.exports = {
   SUPPORT_SERVER: "https://discord.gg/btQJeGKKHJ", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
-    DEFAULT_PREFIX: "e!", // Default prefix for the bot
+    DEFAULT_PREFIX: ">", // Default prefix for the bot
   },
   INTERACTIONS: {
     SLASH: true, // Should the interactions be enabled
@@ -51,7 +51,7 @@ module.exports = {
   },
 
   MUSIC: {
-    ENABLED: false,
+    ENABLED: true,
     IDLE_TIME: 60, // Time in seconds before the bot disconnects from an idle voice channel
     MAX_SEARCH_RESULTS: 5,
     DEFAULT_SOURCE: "SC", // YT = Youtube, YTM = Youtube Music, SC = SoundCloud
@@ -59,9 +59,9 @@ module.exports = {
     // Refer to https://github.com/freyacodes/Lavalink to host your own lavalink server
     LAVALINK_NODES: [
       {
-        host: "lava.godzillaa.com",
-        port: 25101,
-        password: "dsc.gg/gdz",
+        host: "lavalinkv4.serenetia.com",
+        port: 80,
+        password: "dsc.gg/ajidevserver",
         id: "Music",
         secure: false,
       },
